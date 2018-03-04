@@ -1,0 +1,25 @@
+{
+  "name": "download-css-assets",
+  "version": "0.1.0",
+  "description": "CSS 资源提取器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanke/download-css-assets.git"
+  },
+  "author": "xank <xank@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanke/download-css-assets/issues"
+  },
+  "homepage": "https://github.com/xanke/download-css-assets#readme",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "program": "^1.0.0",
+    "request": "^2.83.0",
+    "superagent": "^3.8.2"
+  }
+}
