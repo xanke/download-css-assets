@@ -1,5 +1,5 @@
 function domainURI(str) {
-  let reg = /(.*)\//i
+  let reg = /^(\w+:\/\/)?([^\/]+)/i
   let domain = reg.exec(str)
   return domain[0]
 }

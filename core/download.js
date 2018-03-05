@@ -25,13 +25,13 @@ const downloadAssets = async (urls, domain) => {
     let url = urls[i]
     let filename = filenameURI(url)
     if (filename) {
-      console.log(url)
       await saveFile(url, filename, domain)
     }
   }
 }
 
 const saveFile = (url, filename, domain) => {
+  console.log(url)
   return new Promise((resolve, reject) => {
     let writeStream = request(url).pipe(
       fs.createWriteStream(`./data/${filename}`)
